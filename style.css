@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px) {
+	.body{
+	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+  }
+
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #e9967a;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #333;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+	word-spacing: 2px;
+}
+.container:after{
+	content:'';
+	display: block;
+	clear: both;
+
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #964b00;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding:25px 15px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #e9967a;
+	color: #fff;
+}
+.banner{
+	height: 30vh;
+	background-image: url('img/1.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h2{
+	background-color: #074774;
+	color: #fff;
+	z-index: 2;
+	padding: 10px 25px;
+	border: 5px solid #4682b4;
+}
+section{
+	padding: 40px 0;
+}
+section h2{
+	text-align: center;
+	padding: 20px 0;
+	color: #385c7c;
+	margin-bottom: 30px;
+}
+.about{
+	background-color: #e9ffdb;
+	word-spacing: 1px;
+	line-height: 25px
+}
+footer{
+	padding: 3px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.label{
+	background-color: #4682b4;
+	color: #fff;
+	padding: 25px;
+}
+.abt{
+	background-color: #addfad;
+	word-spacing: 1px;
+	line-height: 25px;
+	margin: 20px;
+}
+.a{
+	background-color: #addfad;
+	word-spacing: 1px;
+	line-height: 25px;
+	margin: 20px;
+
+}
+.active{
+	background-color: #385c7c;
+	color: #fff;
+
+}
